@@ -193,10 +193,8 @@ int main(void)
   Lcd_PinType pins[]={GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
-  Lcd_cursor(&lcd,0,0);
-  Lcd_string(&lcd,"212222110046");
   Lcd_cursor(&lcd,1,0);
-  Lcd_string(&lcd,"SRINITHI V");
+  Lcd_string(&lcd,"Prabha.C");
 
   while (1)
   {
@@ -288,6 +286,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 ```
 
 ## Output screen shots of proteus  :
